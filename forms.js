@@ -16,7 +16,7 @@ $(document).ready(function() {
       valuesArray.push(parseInt(values.employeeannualsalary));
       console.log(values);
       console.log(valuesArray);
-      
+
       $('#employeeinfo').find('input[type=text]').val('');
 
       appendDom(values);
